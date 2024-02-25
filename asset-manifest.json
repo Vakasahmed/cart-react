@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cart-react/static/css/main.cff5531a.css",
+    "main.js": "/cart-react/static/js/main.bd820da4.js",
+    "static/js/453.1cfa19f4.chunk.js": "/cart-react/static/js/453.1cfa19f4.chunk.js",
+    "static/media/bdance.gif": "/cart-react/static/media/bdance.e2af610faa71e0d4dbd2.gif",
+    "static/media/bsong.mp3": "/cart-react/static/media/bsong.71ca18632e5b73b5c3ce.mp3",
+    "static/media/bg.jpeg": "/cart-react/static/media/bg.b5d4e1478d86d2b18295.jpeg",
+    "static/media/bday.mp4": "/cart-react/static/media/bday.13bb61a0479cc0581042.mp4",
+    "static/media/bday1.jpg": "/cart-react/static/media/bday1.b8ca8533b53992ae01c4.jpg",
+    "static/media/bg1.jpg": "/cart-react/static/media/bg1.a1b49e7b93dc397f5030.jpg",
+    "static/media/bg2.jpeg": "/cart-react/static/media/bg2.6dca897cfffc16afc974.jpeg",
+    "index.html": "/cart-react/index.html",
+    "main.cff5531a.css.map": "/cart-react/static/css/main.cff5531a.css.map",
+    "main.bd820da4.js.map": "/cart-react/static/js/main.bd820da4.js.map",
+    "453.1cfa19f4.chunk.js.map": "/cart-react/static/js/453.1cfa19f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cff5531a.css",
+    "static/js/main.bd820da4.js"
+  ]
+}
