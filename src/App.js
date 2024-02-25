@@ -1,24 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect,useMemo, useState } from "react"
+import { Button, Modal } from 'antd'
+import bday from './video/bday.mp4'
+import bdance from './video/bdance.gif'
+import bday1 from './video/bday1.jpg'
+import bg from './images/bg.jpeg'
+import bg1 from './images/bg1.jpg'
+import bg2 from './images/bg2.jpeg'
+import bsong from './music/bsong.mp3'
+// import './main.css'
 
-function App() {
+const App = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const audio = useMemo(() => typeof Audio !== 'undefined' ? new Audio(bsong) : null, []);
+
+  const showModal = () => {
+    setIsModalOpen(true);
+    audio.play(); 
+    
+  };
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+    audio.pause();
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+    audio.pause();
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <main style={{
+        backgroundImage: `url(${bg1})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        width: '100%',
+        height: '100%'
+      }} className="main">
+        <Modal title="Basic Modal" visible={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
+          <h2>🎆Happy Birthday Dear Nida🎆</h2>
+          <img src={bdance} width={'400px'} alt="Birthday Dance" />
+        </Modal>
+      </main>
+      <div className="btn">
+        <Button type="primary" onClick={showModal}>
+          Click Here Nida Ji
+        </Button>
+      </div>
+    </>
   );
 }
 
