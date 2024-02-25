@@ -19,6 +19,7 @@ const App = () => {
   const steps = [
     {
       title: 'Meri Jaan',
+      width:'50px',
       description: 'I am thankful for every moment we spend together. Happy birthday, babe. I love you!',
       cover: (
         <img
@@ -83,7 +84,7 @@ const App = () => {
         Click Here Begum😘
       </Button>
       <Divider />
-      <Tour open={open} onClose={() => setOpen(false)} steps={steps} />
+      <Tour open={open} className="tour" onClose={() => setOpen(false)} steps={steps} />
         </Modal>
       </main>
       <div className="btn">
