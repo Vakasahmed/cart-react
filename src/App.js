@@ -7,6 +7,9 @@ import bday1 from './video/bday1.jpg'
 import bg from './images/bg.jpeg'
 import bg1 from './images/bg1.jpg'
 import bg2 from './images/bg2.jpeg'
+import t1 from './images/t1.webp'
+import t2 from './images/t2.png'
+import t3 from './images/t3.jpg'
 import bsong from './music/bsong.mp3'
 
 const App = () => {
@@ -19,23 +22,22 @@ const App = () => {
   const steps = [
     {
       title: 'Meri Jaan',
-      width:'50px',
-      description: 'I am thankful for every moment we spend together. Happy birthday, babe. I love you!',
+      description: 'Aap jaisa insan mene apni life me ni dekha aapki soch, samajhdari n mujhko weak moment par happy feel kara na meri khamiyo me mera sath dena...u r so much special for me begam. Happy birthday, baby. I love you❤️😘',
       cover: (
         <img
           alt="tour.png"
-          src="https://user-images.githubusercontent.com/5378891/197385811-55df8480-7ff4-44bd-9d43-a7dade598d70.png"
+          src={t1}
         />
       ),
       target: () => ref1.current,
     },
     {
       title: 'Papa ki pari',
-      description: 'Every year with you just gets better and better.',
+      description: 'Tumhare bina me adhura hu papa ki pari😍💃💃. Aur meri Queen😘😘❤️❤️ i promise to never stop trying to win u over, no matter how many years we spend together....😘😘😘',
       cover: (
         <img
           alt="tour.png"
-          src={bg}
+          src={t2}
         />
       ),
       target: () => ref2.current,
@@ -45,10 +47,10 @@ const App = () => {
       cover: (
         <img
           alt="tour.png"
-          src={bg2}
+          src={t3}
         />
       ),
-      description: 'Sending loads of hugs and kisses to the best wife in the world. There is no one else in the world for me.',
+      description: 'Sending loads of hugs🫂🫂 and kisses😘😘😘 to the best wife💃 in the world. There is no one else in the world for me.',
       target: () => ref3.current,
     },
   ];
@@ -75,7 +77,7 @@ const App = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         width: '100%',
-        height: '90%'
+        height: '87%'
       }} className="main">
         <Modal title="Love You❤️ Sweat Heart" visible={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
           <h2 style={{color:'#0080FE'}}>🎆Happy Birthday Dear Nida🎆</h2>

@@ -24,3 +24,6 @@
 .tour{
   width: 50px !important;
 }
+.ant-tour-inner{
+  width: 500px !important;
+}
