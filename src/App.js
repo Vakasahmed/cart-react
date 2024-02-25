@@ -7,7 +7,6 @@ import bg from './images/bg.jpeg'
 import bg1 from './images/bg1.jpg'
 import bg2 from './images/bg2.jpeg'
 import bsong from './music/bsong.mp3'
-// import './main.css'
 
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -30,13 +29,13 @@ const App = () => {
   };
 
   return (
-    <>
+    <body className="body">
       <main style={{
         backgroundImage: `url(${bg1})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         width: '100%',
-        height: '100%'
+        height: '95%'
       }} className="main">
         <Modal title="Basic Modal" visible={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
           <h2>🎆Happy Birthday Dear Nida🎆</h2>
@@ -48,7 +47,7 @@ const App = () => {
           Click Here Nida Ji
         </Button>
       </div>
-    </>
+    </body>
   );
 }
 
