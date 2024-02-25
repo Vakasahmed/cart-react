@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cart-react/static/css/main.8ea61503.css",
+    "main.css": "/cart-react/static/css/main.1b135bde.css",
     "main.js": "/cart-react/static/js/main.ca03d70d.js",
     "static/js/453.1cfa19f4.chunk.js": "/cart-react/static/js/453.1cfa19f4.chunk.js",
     "static/media/bdance.gif": "/cart-react/static/media/bdance.e2af610faa71e0d4dbd2.gif",
@@ -14,12 +14,12 @@
     "static/media/bg2.jpeg": "/cart-react/static/media/bg2.6dca897cfffc16afc974.jpeg",
     "static/media/t1.webp": "/cart-react/static/media/t1.bf9554325337b721de22.webp",
     "index.html": "/cart-react/index.html",
-    "main.8ea61503.css.map": "/cart-react/static/css/main.8ea61503.css.map",
+    "main.1b135bde.css.map": "/cart-react/static/css/main.1b135bde.css.map",
     "main.ca03d70d.js.map": "/cart-react/static/js/main.ca03d70d.js.map",
     "453.1cfa19f4.chunk.js.map": "/cart-react/static/js/453.1cfa19f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ea61503.css",
+    "static/css/main.1b135bde.css",
     "static/js/main.ca03d70d.js"
   ]
 }
